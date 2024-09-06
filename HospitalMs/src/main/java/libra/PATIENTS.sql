@@ -1,0 +1,17 @@
+/* 
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Other/SQLTemplate.sql to edit this template
+ */
+/**
+ * Author:  tufek
+ * Created: 5 Haz 2024
+ */
+CREATE TABLE PATIENTS (
+    PatId INT PRIMARY KEY IDENTITY(1,1),
+    PatName VARCHAR(50) NOT NULL,
+    PatAge INT NOT NULL,
+    PatAD VARCHAR(50) NULL,
+    PatPhone INT NULL,
+    Pathologie  VARCHAR(100) NULL,
+);
+
